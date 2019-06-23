@@ -1,0 +1,362 @@
+@charset "utf-8";
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 1145px;
+        height: 65px;
+        margin: 0 auto;
+    }
+header ul{
+    width: 700px;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+}
+header ul li{
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+header ul li:last-child{
+    position: absolute;
+    color: #000;
+    right: 0;
+    font-weight: 800;
+}
+header ul li img{
+    margin-top: 24px;
+}
+/*头部结束*/
+.bk{
+    width: 1240px;
+    height: 454px;
+    margin: 0 auto;
+    position: relative;
+}
+.bk img{
+    width: 1220px;
+    left: 0;
+    height: 454px;
+}
+/*背景图结束*/
+/*中部导航开始*/
+    nav{
+        width: 950px;
+        height: 94px;
+        margin: 20px auto;
+    }
+nav ul{
+    width: 950px;
+    height: 94px;
+    line-height: 64px;
+}
+nav ul li{
+    float: left;
+    padding: 0 24px;
+}
+/*第二个背景图开始*/
+.back2{
+    width: 1240px;
+    height: 395px;
+    margin: 0 auto;
+}
+.back2 img{
+    width: 1240px;
+    height: 395px;
+}
+.background{
+    width: 1240px;
+    height: 390px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.background .back-right{
+    width: 620px;
+    height: 390px;
+    position: absolute;
+    right: 0;
+    background: url("../images/banbar1.png") ;
+    opacity: 0.5;
+}
+    .back-cen{
+        width: 300px;
+        height: 224px;
+        margin-top: 50px;
+        position: relative;
+        text-align: center;
+        opacity: 1;
+    }
+    .back-cen h2{
+        height:100px ;
+        line-height: 100px;
+        font-size: 20px;
+        opacity: 1;
+        color: #000;
+    }
+    .back-cen p{
+        text-indent: 2em;
+        margin: 0 auto;
+        width: 300px;
+        height: 62px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        opacity: 1;
+        color: #000;
+    }
+    .back-cen button{
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 30px;
+        position: absolute;
+        border: none;
+        color: #fff;
+        right: 0;
+        bottom: 0;
+        background-image:linear-gradient(to right,blue,deepskyblue);
+    }
+    .center{
+        width: 339px;
+        height: 98px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .center p{
+        height: 50px;
+        line-height: 50px;
+    }
+    .center ul {
+        height: 30px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .center ul li{
+        float: left;
+        margin: 0 10px;
+    }
+    .vdiuo{
+        width: 100%;
+        height: 290px;
+        background-color: #ccc;
+    }
+    .vdiuo ul{
+        width: 913px;
+        height: 290px;
+        margin: 0 auto;
+    }
+    .vdiuo ul li{
+        width: 296px;
+        text-align: center;
+        float: left;
+    }
+    .vdiuo ul li+li{
+        margin-left: 12px;
+    }
+    .vdiuo ul li h2{
+        margin-top: 10px;
+    }
+footer{
+    width: 972px;
+    height: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer h2{
+    height: 70px;
+    line-height: 70px;
+    margin-top: 30px;
+}
+footer p{
+    height: 100px;
+}
+footer ul{
+    width: 960px;
+    height: 110px;
+}
+footer ul li{
+    float: left;
+    height: 110px;
+    width: 158px;
+    position: relative;
+}
+footer ul li img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin :auto;
+}
+footer ul+ul{
+    border-top: 2px solid #eef7fd;
+}
+footer ul li+li{
+    border-left: 2px solid #eef7fd;
+}
+footer div{
+    height: 30px;
+    width: 100px;
+    margin: 40px auto;
+}
+footer div img{
+    float: left;
+    margin: 0 10px;
+}
+.foot-back{
+    width: 100%;
+    height: 309px;
+    background-image:linear-gradient(to right,#009bf3,#005fe5);
+}
+.foot-back-cen{
+    width: 961px;
+    height: 309px;
+    margin: 0 auto;
+    position: relative;
+}
+.foot-back-cen h2{
+    height: 110px;
+    line-height: 110px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.foot-input{
+    width: 500px;
+    height: 120px;
+    position: relative;
+}
+.foot-input input{
+    width: 220px;
+    height: 30px;
+    line-height: 30px ;
+    color: #fff;
+    border: none;
+    background-color: deepskyblue;
+    border-bottom: 1px  solid #ccc;
+}
+.foot-input p input+input{
+    margin-left: 20px;
+}
+.foot-input button{
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    background-color: #fff;
+    color: deepskyblue;
+    position: absolute;
+    border: none;
+    left: 0;
+    bottom: 0;
+}
+.foot-input img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.foot-right{
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    right: 0;
+    color: #fff;
+    bottom: 100px;
+}
+.foot-right ul {
+    width: 370px;
+    height: 60px;
+}
+.foot-right ul li{
+    float: left;
+}
+.foot-right ul li h3{
+    font-size: 20px;
+}
+.foot-right ul li:nth-child(2){
+    margin-left: 5px;
+}
+.foot-right ul li:nth-child(3){
+    margin-left: 30px;
+}
+.foot-right ul li:nth-child(4){
+    margin-left: 10px;
+}
+/*结尾开始*/
+.end{
+    width: 100%;
+    height: 120px;
+    background-color: #f9f9f9;
+}
+.end-con{
+    width: 972px;
+    height: 120px;
+    margin: 0 auto;
+}
+.end-con ul{
+    width: 972px;
+    height: 38px;
+
+}
+.end-con ul li{
+    margin:40px auto ;
+    float: left;
+    height: 38px;
+    position: relative;
+
+
+}
+.end-con ul li+li{
+    margin-left: 100px;
+}
+.end-con ul li:nth-child(1){
+    width: 255px;
+    line-height: 40px;
+}
+.end-con ul li img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.end-con ul li:last-child{
+    line-height: 40px;
+
+}
+/*结尾开始*/
+    .Btn{
+        width: 961px;
+        margin:0 auto ;
+        padding: 40px 0 50px 0 ;
+        height: 180px;
+        border-bottom: 1px solid #cccc;
+    }
+    .Btn ul{
+        width: 70px;
+        height: 180px;
+        float: left;
+    }
+    .Btn ul+ul{
+        margin-left: 60px;
+    }
+    .Btn ul li+li{
+        height: 30px;
+        line-height: 30px;
+        color: #ccc;
+    }
+    .Btn ul li h3{
+        color: #999999;
+        height: 40px;
+    }
+    .Btn img{
+        float: right;
+    }
+    .End-foot{
+        height: 50px;
+        width: 961px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
